@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character {
+  margin: 0 auto;
+  transition: 0.5s;
+}
+
+.character:hover {
+  transform: scale(1.05);
+}
